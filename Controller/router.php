@@ -14,6 +14,9 @@
 			case 'sign_up':
 				return action_signup($db);
 				break;
+			case 'logout':
+				return action_logout();
+				break;
 			case 'articles':
 				return 'articles';
 				break;

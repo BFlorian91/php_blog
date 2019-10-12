@@ -2,6 +2,8 @@
 
     function header_page() {
 
+        session_start();
+
         $html = "";
 
         $html .= '<html>';

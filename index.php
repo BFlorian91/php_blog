@@ -10,6 +10,7 @@
     require_once 'view/success.php';
     require_once 'model/action_signup.php';
     require_once 'model/action_signin.php';
+    require_once 'model/action_logout.php';
     require_once 'model/connec_to_db.php';
     require_once 'controller/router.php';
 

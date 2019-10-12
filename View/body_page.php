@@ -10,7 +10,7 @@ function body_page($menu_elements = null, $content = null)
     $html .=			'<header>';
     $html .=				menu($menu_elements);
     $html .=			'</header>';
-    $html .=				$content;
+    $html .=			$content;
     $html .=		'</div>';
     $html .=	'</body>';
 
