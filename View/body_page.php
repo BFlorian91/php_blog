@@ -5,14 +5,14 @@ function body_page($menu_elements = null, $content = null)
 
     $html = "";
 
-    $html .= '<body>';
-    $html .= 	'<div>';
-    $html .=		'<header>';
-    $html .=			menu($menu_elements);
-    $html .=		'</header>';
-    $html .=		$content;
-    $html .=	'</div>';
-    $html .= '</body>';
+    $html .=	'<body>';
+    $html .=		'<div>';
+    $html .=			'<header>';
+    $html .=				menu($menu_elements);
+    $html .=			'</header>';
+    $html .=				$content;
+    $html .=		'</div>';
+    $html .=	'</body>';
 
     return $html;
 }

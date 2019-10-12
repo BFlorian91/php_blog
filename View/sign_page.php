@@ -47,7 +47,7 @@ function sign_page() {
     $html .= '							<p class="text-uppercase"> Login using your account: </p>	';
 
     $html .= '							<div class="form-group">';
-    $html .= '								<input type="email" name="username" class="form-control input-lg" placeholder="username">';
+    $html .= '								<input type="text" name="username" class="form-control input-lg" placeholder="username">';
     $html .= '							</div>';
     $html .= '							<div class="form-group">';
     $html .= '								<input type="password" name="pass" class="form-control input-lg" placeholder="Password">';

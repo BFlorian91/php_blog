@@ -9,7 +9,7 @@
 				return sign_page();
 				break; 
 			case 'sign_in':
-				return 'none';
+				return action_signin($db);
 				break;
 			case 'sign_up':
 				return action_signup($db);
