@@ -28,6 +28,9 @@
 			case 'contact':
 				return 'contact';
 				break;
+			case 'articles':
+				return action_display_articles($db);
+				break;
 			default:
 				return home_content();
 				break;
