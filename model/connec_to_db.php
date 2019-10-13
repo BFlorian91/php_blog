@@ -12,6 +12,6 @@
         if (!$db) {
             die("Can not connect to database" . mysqli_connect_error());
         }
-        
-        return($db);
+
+            return($db);
     }
