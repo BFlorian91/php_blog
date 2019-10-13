@@ -1,3 +1,5 @@
 .DS_Store
 .vscode
 /model/connect_to_db.php
+.viminfo
+/logs
