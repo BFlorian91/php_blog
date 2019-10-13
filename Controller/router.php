@@ -17,8 +17,8 @@
 			case 'logout':
 				return action_logout();
 				break;
-			case 'articles':
-				return 'articles';
+			case 'panel':
+				return build_article();
 				break;
 			case 'contact':
 				return 'contact';
