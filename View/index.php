@@ -4,7 +4,6 @@
 		$html =  '<div>';
 		$html .= 	$content_page;
 		$html .= '</div>';
-		$html .= footer_page();
 
 		return $html;
 	}

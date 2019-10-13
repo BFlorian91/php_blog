@@ -52,9 +52,9 @@ function menu($elements = null)
    $html .= 			'<span class="navbar-toggler-icon"></span>';
    $html .=		'</button>';
    $html .=		 $html_log;
-   $html .=		'<i style="margin-right: 15px;" class="fa fa-facebook" aria-hidden="true"></i>';
-   $html .=		'<i style="margin-right: 15px;" class="fa fa-twitter" aria-hidden="true"></i>';
-   $html .=		'<i style="margin-right: 15px;" class="fa fa-instagram" aria-hidden="true"></i>';
+   $html .=		'<a style="color: inherit;" href="https://twitter.com/B_Florian_" target="_blank"><i class="fab fa-twitter mr-3" aria-hidden="true"></i></a>';
+   $html .=		'<a style="color: inherit;" href="https://www.instagram.com/b_florian91/?hl=fr" target="_blank"><i class="fab fa-instagram mr-3" aria-hidden="true"></i></a>';
+   $html .=		'<a style="color: inherit;" href="https://www.linkedin.com/in/florian-beaumont-b62864158/" target="_blank"><i class="fab fa-linkedin-in mr-3" aria-hidden="true"></i></a>';
    $html .= '</div>';
    $html .= '</nav>';
 

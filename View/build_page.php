@@ -5,7 +5,9 @@
         $menu_elements = add_elements();
 
         $build = header_page();
-        $build .= body_page($menu_elements, $content);
+        $build .= menu($menu_elements);
+        $build .= body_page($content);
+		//$build .= footer_page();
 
         return $build;
     }

@@ -1,15 +1,12 @@
 <?php
 
-function body_page($menu_elements = null, $content = null)
+function body_page($content = null)
 {
 
     $html =	 '<body>';
-    $html .=		'<div>';
-    $html .=			'<header>';
-    $html .=				menu($menu_elements);
-    $html .=			'</header>';
+    $html .=		'<div class="mt-5 h-100">';
     $html .=			$content;
-    $html .=		'</div>';
+		$html .=		'</div>';
     $html .=	'</body>';
 
     return $html;
