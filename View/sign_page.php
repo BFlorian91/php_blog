@@ -9,7 +9,6 @@ function sign_page() {
     $html .= '		<div class="row">';
     $html .= '			<div class="col-md-5">';
     $html .= '				<form role="form" method="post" action="index.php?action=sign_up">';
-   // $html .= '					<fieldset>';
     $html .= '					<p class="text-uppercase pull-center"> SIGN UP.</p>	';
     $html .= '					<div class="form-group">';
     $html .= '						<input type="text" name="username" class="form-control input-lg" placeholder="username">';
@@ -33,17 +32,14 @@ function sign_page() {
     $html .= '					<div>';
     $html .= '						<input type="submit" class="mt-3 btn btn-lg btn-info" value="Register">';
     $html .= '					</div>';
-    //$html .= '					</fieldset>';
     $html .= '					</form>';
     $html .= '				</div>';
 
     $html .= '				<div class="col-md-2">';
-    $html .= '					<!-------null------>';
     $html .= '				</div>';
 
     $html .= '				<div class="col-md-5">';
     $html .= ' 				 		<form role="form" method="post" action="index.php?action=sign_in">';
-    $html .= '						<fieldset>';
     $html .= '							<p class="text-uppercase"> Login using your account: </p>	';
 
     $html .= '							<div class="form-group">';
@@ -55,8 +51,6 @@ function sign_page() {
     $html .= '							<div>';
     $html .= ' 							  <input type="submit" class="mt-3 btn btn-lg btn-info" value="Sign In">';
     $html .= '							</div>';
-
-    $html .= ' 						</fieldset>';
     $html .= '				</form>	';
     $html .= '				</div>';
     $html .= '			</div>';

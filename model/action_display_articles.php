@@ -7,7 +7,8 @@
 		while ($row = mysqli_fetch_array($res)) {
 			$title = $row[1];
 			$content = $row[2];
-			$post .= show_articles($title, $content) . '<br/>';
+			$date = $row[3];
+			$post .= show_articles($title, $content, $date) . '<br/>';
 		}
 		return $post;
 	}

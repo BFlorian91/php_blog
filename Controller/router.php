@@ -25,8 +25,8 @@
 			case 'create_article':
 				return action_create_article($db);
 				break;
-			case 'contact':
-				return 'contact';
+			case 'profile':
+				return profile_page();
 				break;
 			case 'articles':
 				return action_display_articles($db);
