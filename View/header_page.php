@@ -4,9 +4,7 @@
 
         session_start();
 
-        $html = "";
-
-        $html .= '<html>';
+        $html =  '<html>';
         $html .= 	'<head>';
         $html .= 		'<meta charset="UTF-8" />';
         $html .= 		'<title>blog</title>';

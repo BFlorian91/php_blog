@@ -2,7 +2,7 @@
 
 function sign_page() {
 
-    $html .= '<div class="container-fluid">';
+    $html =  '<div class="container-fluid">';
     $html .= '	<div class="container">';
     $html .= '		<h2 class="text-center" id="title">Register or Login</h2>';
     $html .= '		<hr>';
@@ -61,7 +61,6 @@ function sign_page() {
     $html .= '				</div>';
     $html .= '			</div>';
     $html .= '		</div>';
-    $html .= '        <p class="text-center">';
 
     return $html;
 }

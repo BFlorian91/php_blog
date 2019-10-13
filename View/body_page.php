@@ -3,9 +3,7 @@
 function body_page($menu_elements = null, $content = null)
 {
 
-    $html = "";
-
-    $html .=	'<body>';
+    $html =	 '<body>';
     $html .=		'<div>';
     $html .=			'<header>';
     $html .=				menu($menu_elements);
