@@ -7,7 +7,7 @@
     require_once 'model/action_logout.php';
     require_once 'model/action_create_article.php';
     require_once 'model/action_display_articles.php';
-    require_once 'model/connec_to_db.php';
+    require_once 'model/connect_to_db.php';
     require_once 'view/header_page.php';
     require_once 'view/footer_page.php';
     require_once 'view/menu.php';
