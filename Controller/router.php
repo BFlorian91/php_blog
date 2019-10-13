@@ -2,6 +2,8 @@
 
 	function router() {
 
+		session_start();
+
 		$db = connect_to_db();
 
 		switch ($_GET['action']) {
@@ -18,7 +20,10 @@
 				return action_logout();
 				break;
 			case 'panel':
-				return build_article();
+				return $_SESSION['username'] == 'admin' ? create_article() : home_content();
+				break;
+			case 'create_article':
+				return action_create_article($db);
 				break;
 			case 'contact':
 				return 'contact';
