@@ -31,7 +31,7 @@
 					mysqli_stmt_execute($stmt);
 					mysqli_stmt_close($stmt);
 					
-					return success_("Your account has created " . $_POST['username']) . home_content();
+					return success_("Your account has created " . $_POST['username']) . action_display_articles($db);
 				} else {
 					return error_("User already exist !") . sign_page();
 				}

@@ -17,7 +17,7 @@
 			$row = mysqli_fetch_array($res);
 			if (password_verify($passwd, $row[0])) {
 					$_SESSION['username'] = $username;
-					return success_('Welcome back ' . $username) . home_content();
+					return success_('Welcome back ' . $username) . action_display_articles($db);
 			}
 			return error_('username or password are incorrect') . sign_page();
 		} 
